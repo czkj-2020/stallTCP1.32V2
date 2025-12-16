@@ -97,6 +97,7 @@ or
   and
   not http.user_agent contains "Nekobox"
 )
+```
 
 ### 2. 🤖 开启机器人战斗模式 (Bot Fight Mode)
 
