@@ -26,8 +26,8 @@ const SINGBOX_CONFIG_V12 = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3N
 const SINGBOX_CONFIG_V11 = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NpbnNwaXJlZC9zdWItc3RvcmUtdGVtcGxhdGUvbWFpbi8xLjExLngvc2luZy1ib3guanNvbg=="); //修改singbox的json配置，默认使用这个，如果无法使用才会切换1.12
 
 // --- 通知与高级参数 ---
-const TG_BOT_TOKEN = ""; //在此telegram bot的token令牌
-const TG_CHAT_ID = ""; //在此修改添加你的telegram 用户id
+const TG_BOT_TOKEN = "8032714466:AAEu1Y9Cru9pdlNCRCorNrbcVOYoGpjQx2o"; //在此telegram bot的token令牌
+const TG_CHAT_ID = "1027714230"; //在此修改添加你的telegram 用户id
 const ADMIN_IP = ""; //在此修改添加你的白名单IP
 const DLS = "5000"; // ADDCSV 专用：速度下限筛选阈值 (单位 KB/s)
 
