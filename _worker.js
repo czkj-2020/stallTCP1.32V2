@@ -5,7 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // =============================================================================
 
 // --- 基础账号与网络配置 ---
-let UUID = "616e2c1c-f267-4464-a068-b5838060b49b"; //修改可用的uuid
+let UUID = ""; //修改可用的uuid
 const WEB_PASSWORD = "cwoo@7777";  //修改你的登录密码
 const SUB_PASSWORD = "cwstalltcpv132v2";  //修改你的订阅密码
 const DEFAULT_PROXY_IP = atob("UHJveHlJUC5VUy5DTUxpdXNzc3MubmV0"); // 支持多ProxyIP，使用逗号分隔
@@ -26,8 +26,8 @@ const SINGBOX_CONFIG_V12 = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3N
 const SINGBOX_CONFIG_V11 = atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NpbnNwaXJlZC9zdWItc3RvcmUtdGVtcGxhdGUvbWFpbi8xLjExLngvc2luZy1ib3guanNvbg=="); //修改singbox的json配置，默认使用这个，如果无法使用才会切换1.12
 
 // --- 通知与高级参数 ---
-const TG_BOT_TOKEN = "8032714466:AAEu1Y9Cru9pdlNCRCorNrbcVOYoGpjQx2o"; //在此telegram bot的token令牌
-const TG_CHAT_ID = "1027714230"; //在此修改添加你的telegram 用户id
+const TG_BOT_TOKEN = ""; //在此telegram bot的token令牌
+const TG_CHAT_ID = ""; //在此修改添加你的telegram 用户id
 const ADMIN_IP = ""; //在此修改添加你的白名单IP
 const DLS = "5000"; // ADDCSV 专用：速度下限筛选阈值 (单位 KB/s)
 
