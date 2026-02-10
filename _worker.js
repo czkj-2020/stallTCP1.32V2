@@ -561,7 +561,7 @@ export default {
         await sendTgMsg(ctx, env, "✅ 后台登录成功", r, "进入管理面板", true);
         ctx.waitUntil(logAccess(env, clientIP, `${city},${country}`, "登录后台"));
 
-        const sysParams = { tgToken: env.TG_BOT_TOKEN || TG_BOT_TOKEN, tgId: env.TG_CHAT_ID || TG_CHAT_ID, cfId: env.CF_ID || "02256b5705d1d2a9cb5c02ef18f41c9e", cfToken: env.CF_TOKEN || "zFgbT8eJOV2q_ZLrX1KtzP2-9TE3QZ3YsNeikA67", cfMail: env.CF_EMAIL || "", cfKey: env.CF_KEY || "" };
+        const sysParams = { tgToken: env.TG_BOT_TOKEN || TG_BOT_TOKEN, tgId: env.TG_CHAT_ID || TG_CHAT_ID, cfId: env.CF_ID || "", cfToken: env.CF_TOKEN || "", cfMail: env.CF_EMAIL || "", cfKey: env.CF_KEY || "" };
         const tgToken = await getSafeEnv(env, 'TG_BOT_TOKEN', TG_BOT_TOKEN);
         const tgId = await getSafeEnv(env, 'TG_CHAT_ID', TG_CHAT_ID);
         const cfId = await getSafeEnv(env, 'CF_ID', ''); const cfToken = await getSafeEnv(env, 'CF_TOKEN', '');
